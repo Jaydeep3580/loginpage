@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(background.jpg);
+}
+
+section {
+    position: relative;
+    max-width: 400px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 2rem 3rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+input[type=email] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 4px;
+    margin-bottom: 6px;
+}
+
+input[type=password] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 4px;
+    margin-bottom: 6px;
+}
+
+.button {
+    margin-left: 55%;
+}
+
+button {
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 6px;
+    background-color: rgb(12, 130, 31);
+    color: aliceblue;
+}
+
+p {
+    text-align: center;
+    margin-top: 10px;
+}

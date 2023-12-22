@@ -1,56 +1,56 @@
-body {
+
+body{
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
     background-image: url(background.jpg);
+    
 }
-
-section {
+section{
     position: relative;
-    max-width: 400px;
+    max-width: 100%;
     border: 1px solid black;
     background-color: white;
-    border-radius: 20px;
     align-items: center;
     display: flex;
     justify-content: center;
-    padding: 2rem 3rem;
+    padding: 60px;
+    border-radius: 20px;
 }
 
-h1 {
-    text-align: center;
-}
-
-input[type=email] {
+input[type=text]{
     width: 100%;
     padding: 12px;
     margin-top: 4px;
     margin-bottom: 6px;
 }
 
-input[type=password] {
+input[type=email]{
+    width: 100%;
+    padding: 12px;
+    margin-top: 4px;
+    margin-bottom: 6px;
+   
+}
+input[type=password]{
     width: 100%;
     padding: 12px;
     margin-top: 4px;
     margin-bottom: 6px;
 }
 
-/* .button {
-    margin-left: 55%;
-} */
-
-button {
+button{
     width: 50%;
-    padding: 10px;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 6px;
-    background-color: rgb(12, 130, 31);
-    color: aliceblue;
-}
+   padding: 10px;
+   text-align: center;
+   margin-top: 20px;
+   margin-bottom: 4px;
+   background-color: rgb(12, 130, 31);
+   color:aliceblue;
+   align-items: center;
+   display: flex;
+   justify-content: center;
 
-p {
-    text-align: center;
-    margin-top: 10px;
+  
 }
